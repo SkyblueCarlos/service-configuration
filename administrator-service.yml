@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: skyblue-administrator
+server:
+  port: 8099
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8099/eureka}
+  instance:
+    preferIpAddress: true
