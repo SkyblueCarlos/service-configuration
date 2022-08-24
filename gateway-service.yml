@@ -16,12 +16,4 @@ spring:
         - id: skyblue-administrator
           uri: lb://skyblue-administrator
           predicates:
-            - Path=/administrator/**
-        - id: product-service
-          uri: lb://product-service
-          predicates:
-            - Path=/products/**
-        - id: shopping-service
-          uri: lb://shopping-service
-          predicates:
-            - Path=/invoices/**
+            - Path=/api/**
