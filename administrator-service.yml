@@ -3,9 +3,18 @@ spring:
     name: skyblue-administrator
 server:
   port: 8099
+  error:
+    include-message: always
+    include-binding-errors: always
+
 eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8099/eureka}
   instance:
     preferIpAddress: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
