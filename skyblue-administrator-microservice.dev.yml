@@ -1,4 +1,11 @@
 product:
   property: product profile dev
 
-#datos de base de datos
+spring:
+  datasource:
+    url: localhost
+
+
+
+
+#datos de base de datos and hibernate
