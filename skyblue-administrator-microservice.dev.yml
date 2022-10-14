@@ -4,6 +4,8 @@ product:
 spring:
   datasource:
     url: localhost
+app:
+  testProd: property of test
 
 
 
