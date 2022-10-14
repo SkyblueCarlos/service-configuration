@@ -27,12 +27,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
 
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
-
 Feign:
   hystrix:
     enabled: true
